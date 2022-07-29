@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: white;
+  align-items: center;
+}
+
+.heading {
+  margin-left: 15rem;
+  font-size: 1.7rem;
+  color: rgb(0, 255, 85);
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.score h1{
+    font-size: 1.2rem;
+}
+
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.choices .choice-user img,
+.choices .choice-computer img{
+    width: 20rem;
+    height: 20rem;
+    margin-left: 2rem;
+}
+
+.choice-user{
+    margin-right: 2rem;
+}
+
+.button-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button-div button{
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    margin: 1rem;
+}
+.button-div button:hover{
+    background: white;
+    color: black;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.result h1{
+    font-size: 1.4rem;
+}
